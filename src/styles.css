@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap");
+
+h2 {
+  font-size: 2rem;
+  font-family: "Finlandica", sans-serif;
+  color: black;
+  text-align: center;
+  /* background: white; */
+
+  /* border-bottom: 7px dotted blue; */
+}
+
+p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Finlandica", sans-serif;
+}
+
+h4 {
+  /* color: red; */
+  font-family: "Finlandica", sans-serif;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* background-color: rgba(255, 255, 255, 0.95); */
+}
+
+.me {
+  /* border: 2px solid red; */
+  color: white;
+  font-family: "Finlandica", sans-serif;
+  background-color: rgb(218, 88, 88);
+  border-radius:20px;
+  text-align: center;
+  padding:10px;
+  width:70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin:auto;
+}
+
+.me > a {
+  color: white;
+  text-decoration: none;
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 50%;
+  padding: 1rem 2rem;
+  margin-bottom: 20px;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .warning {
+    display: none;
+  }
+}
+
+body {
+  /* background-image: url("https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+  /* background-image: url("https://source.unsplash.com/random/900×700/?landscape"); */
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
