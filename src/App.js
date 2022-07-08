@@ -23,7 +23,6 @@ export default function App() {
         style={{
           height: "300px",
           width: "300px",
-          border: "2px dotted black",
           margin: "auto"
         }}
       />
